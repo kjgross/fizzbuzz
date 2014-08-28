@@ -24,30 +24,3 @@ for i in range(101):
 		i += 1
 		
 		
-
-#Version 2:
-print 'Pick a number > 100 to begin FizzBuzz:'
-count = 1
-max = int(raw_input())
-for i in range(max):
-	if i%3 == 0:
-		if i%5 == 0:
-			print 'fizzbuzz'
-			i += 1
-		else:
-			print 'fizz'
-			i += 1
-	elif i%5 == 0:
-		print 'buzz'
-		i += 1
-	else:
-		print i
-		i += 1
-		
-		
-		
-## Use Git/Git Hub for version control
-## Add in sys model for optional inputs
-## Send repo to mentor to review during tutoring
-## Add in error handling for non numeric user-inputs
-## 
