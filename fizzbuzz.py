@@ -9,6 +9,8 @@
 # in your code, use a try/except block to catch it, and then respond by print
 # a message to the user that they need to supply numeric inputs for the program,
 #  then follow that up by using raw_input() to ask for a new numeric value.	
+
+#check it
 		
 import sys
 
