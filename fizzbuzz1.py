@@ -14,12 +14,13 @@ import sys
 
 if len(sys.argv) == 2:
 	while True:
-    	try:
-        	sys.argv[1] = int(sys.argv[1]) 
-        	max = int(sys.argv[1])
-        	break
-    	except ValueError:
+		try:
+			sys.argv[1] = int(sys.argv[1])
+			max = int(sys.argv[1])
+			break
+		except ValueError:
 			max = int(raw_input("Not a valid integer! Please try again. "))
+			break
 else: 
 	max = int(raw_input("Please enter an integer: "))
 	
