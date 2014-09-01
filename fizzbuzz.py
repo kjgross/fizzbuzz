@@ -8,12 +8,12 @@ import sys
 
 def divis(a,b):
 	""" is this guy evenly divisible by that guy?"""
-	return a%b == 0:
+	return a%b == 0
 
 
 def fizzbuzz(num=100):
 	""" output appropriate response re/ divisibility"""
-	for value in range(1,num):
+	for value in range(1,num + 1):
 		if divis(num,5):
 			if divis(num,3):
 				print 'fizzbuzz'
