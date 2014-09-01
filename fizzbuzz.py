@@ -14,15 +14,15 @@ def divis(a,b):
 def fizzbuzz(num=100):
 	""" output appropriate response re/ divisibility"""
 	for value in range(1,num + 1):
-		if divis(num,5):
-			if divis(num,3):
+		if divis(value,5):
+			if divis(value,3):
 				print 'fizzbuzz'
 			else:
 				print 'buzz'
-		elif divis(num,3):
+		elif divis(value,3):
 			print 'fizz'
 		else:
-			print num
+			print value
 
 if __name__ == '__main__':
 	num = int(sys.argv[1])
