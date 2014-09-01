@@ -26,7 +26,7 @@ def fizzbuzz(num=100):
 
 if __name__ == '__main__':
 	num = int(sys.argv[1])
-	fizz_buzz(num)
+	fizzbuzz(num)
 
 
 
