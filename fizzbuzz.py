@@ -25,8 +25,11 @@ def fizzbuzz(num=100):
 			print value
 
 if __name__ == '__main__':
-	num = int(sys.argv[1])
-	fizzbuzz(num)
+	if len(sys.argv) == 2:
+		fizzbuzz(int(sys.argv[1]))
+	else:
+		fizzbuzz()
+	
 
 
 
